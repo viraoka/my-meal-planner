@@ -113,4 +113,8 @@ h3 {
   .selected {
     margin-left: 10px;
   }
+  textarea {
+    margin-left: 20px;
+    margin-right: 10px;
+  }
 }
