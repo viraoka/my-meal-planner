@@ -1,6 +1,6 @@
 const MyList = ({addMeal, mealPlans, deleteDay, selectedDay, setSelectedDay}) => {
     return (
-        <div>
+        <div className="myList">
             <div>
                 <h1>Weekly Meal Plan Ideas</h1>
                 <button
