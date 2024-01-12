@@ -101,6 +101,7 @@ h3 {
   h1 {
     text-align: center;
     margin-left: 10px;
+    width: 50%;
   }
   .button-add {
     margin-left: 10px;
@@ -109,19 +110,23 @@ h3 {
 
   .default {
     margin-left: 10px;
+    width: 60%;
   }
   .selected {
     margin-left: 10px;
+    width: 60%;
   }
   textarea {
     margin-left: 20px;
     margin-right: 10px;
+    width: 70%;
   }
   .myInput {
     margin-left: 20px;
     margin-right: 10px;
+    width: 60%;
   }
   .whole-plan {
-    width: 80%;
+    width: 90%;
   }
 }
