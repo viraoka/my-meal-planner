@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
+  background: url(meal.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;  background-position: center;
+  background-color: #F1F0E8;
   min-height: 100vh;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F5E8C7;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.button-add {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #739072;
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+}
+.button-delete {
+  font-family: 'Montserrat', sans-serif;
+  background: none;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  color: #1A120B;
+  cursor: pointer;
+}
+
+.App {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.whole-plan {
+  width: 65%;
+  height: 100vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.myInput {
+  width: 60%;
+  height: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  display: block;
+  margin-top: 30px;
+  border: 1px solid black;
+  margin-left: 40px;
+}
+
+textarea {
+  display: block;
+  border: 1px solid #3E3232;
+  margin-top: 30px;
+  width: 60%;
+  height: 200px;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  margin-left: 40px;
+}
+
+.selected {
+  background-color: #93B1A6;
+  border-radius: 5px;
+  padding: 0px 0px 0px 3px;
+}
+
+.default {
+  background-color: #F5E8C7;
+  border-radius: 10px;
+  padding: 0px 0px 0px 3px;
+}
+
+
+h3 {
+  color:#527853;
+  background-color: #FAEED1;
+  height: 25px;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.field {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media all and (max-width: 500px) {
+  h3 {
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 5px;
+    text-align: center;
   }
-  to {
-    transform: rotate(360deg);
+  h1 {
+    text-align: center;
+    margin-left: 10px;
+  }
+  .button-add {
+    margin-left: 10px;
+  }
+
+  .default {
+    margin-left: 10px;
+  }
+  .selected {
+    margin-left: 10px;
   }
 }
