@@ -107,6 +107,8 @@ h3 {
   .button-add {
     margin-left: 10px;
     color: black;
+    padding: 10px;
+    font-size: 15px;
   }
 
   .default {
