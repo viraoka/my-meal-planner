@@ -81,9 +81,10 @@ h3 {
   color:#527853;
   background-color: #FAEED1;
   height: 25px;
-  border-radius: 10px;
+  border-radius: 5px;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
+  padding: 5px;
 }
 
 .field {
