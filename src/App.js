@@ -23,7 +23,6 @@ function App() {
       ingredients: ""
     }
     setmealPlans([newMeal, ...mealPlans])
-    console.log(newMeal)
   }
 
   const deleteDay = (mealId) => {
